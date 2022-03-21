@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__':
     env = gym.make('Blackjack-v1')
     EPS = 0.05
-    GAMMA = 1
+    GAMMA = 0.9
 
     Q = {}
     agentSumSpace = [i for i in range(4, 22)]
